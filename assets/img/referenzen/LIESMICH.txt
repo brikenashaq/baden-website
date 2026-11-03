@@ -1,0 +1,11 @@
+Hier kommen die Vorher-/Nachher-Fotos hinein.
+
+Sobald diese zwei Dateien existieren, erscheint der Regler automatisch auf der Startseite:
+  vorher-1.jpg
+  nachher-1.jpg
+
+Regeln:
+- Beide Fotos vom gleichen Standpunkt, in gleicher Größe und gleichem Format (z. B. 1500 x 1000 px, Querformat).
+- Nur echte Fotos echter Aufträge, unbearbeitet. Keine Stock-Fotos.
+- Vor dem Veröffentlichen die Erlaubnis des Kunden einholen. Keine Gesichter, Hausnummern oder Kennzeichen zeigen.
+- Ortsdaten aus den Fotos entfernen (z. B. mit ImageOptim oder squoosh.app).

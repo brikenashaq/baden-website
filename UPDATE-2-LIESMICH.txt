@@ -1,0 +1,15 @@
+UPDATE 2: Wechselnde Fotos in den Bereichen
+==========================================
+
+1) Entpacken und den Inhalt in Ihren Ordner baden-website kopieren (Dateien überschreiben / zusammenführen).
+   Ihre Dateien data/site.php und lang/de.php sind nicht enthalten und bleiben unverändert.
+
+2) Ansehen:  http://localhost:8000/leistungen.php   (mit Cmd + Shift + R neu laden)
+   Foto-Übersicht: http://localhost:8000/leistungen.php?fotos
+
+3) Fotos hinzufügen: Dateinamen siehe assets/img/leistungen/FOTOS.txt
+   Beispiel: 02-2.jpg = Foto für "Treppenhausreinigung".  Weiteres Foto derselben Leistung: 02-2b.jpg
+   Danach (im Ordner baden-website):  php tools/optimize-photos.php
+
+Geändert: leistungen.php, assets/css/leistungen.css, assets/js/leistungen.js, README.md
+Neu:      tools/optimize-photos.php, assets/img/leistungen/FOTOS.txt, 01-1.jpg, 01-1b.jpg, 01-2.jpg, 03-2.jpg, 05-1.jpg

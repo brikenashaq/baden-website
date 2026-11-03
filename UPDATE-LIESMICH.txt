@@ -1,0 +1,23 @@
+UPDATE: Seite "Leistungen"
+==========================
+
+1) Dateien einspielen
+   Entpacken und den Inhalt in Ihren Ordner baden-website kopieren (bestehende Dateien überschreiben).
+   Ihre eigenen Dateien data/site.php und lang/de.php sind NICHT enthalten und bleiben unverändert.
+
+2) Zwei kleine Änderungen in data/site.php (von Hand)
+   a) Im Block 'pages':    'leistungen' => '#leistungen',   ändern in   'leistungen' => 'leistungen.php',
+   b) Unter 'phone_display' eine Zeile ergänzen (im Header nur eine Nummer):
+        'phone_header' => '+49 176 20549488',
+
+3) Ansehen
+   http://localhost:8000/leistungen.php   (Server läuft mit:  php -S localhost:8000)
+   Ohne PHP: preview-leistungen.html doppelklicken.
+
+4) Foto für den sechsten Bereich (Entrümpelung & Umzug)
+   Datei  assets/img/leistungen/stage-6.jpg  anlegen: Hochformat 4:5, 1200 x 1500 px.
+   Bis dahin erscheint ein Platzhalter "Foto folgt".
+
+Neue Dateien:  leistungen.php, lang/de-leistungen.php, partials/contact.php,
+               assets/css/leistungen.css, assets/js/leistungen.js, assets/img/leistungen/*
+Geänderte:     index.php, send.php, partials/header.php, partials/footer.php, partials/functions.php, README.md

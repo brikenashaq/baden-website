@@ -1,0 +1,12 @@
+KOMPLETTE PROJEKTKOPIE (aktueller Stand)
+========================================
+
+Dieser Ordner enthält ALLES: Seiten, Texte, Bilder, Schriften, Werkzeuge.
+Verwenden Sie ihn als neuen Ausgangspunkt, wenn Dateien verloren gegangen sind.
+
+- data/site.php ist mit den Firmendaten befüllt, die Sie zuletzt geschickt haben (E-Mail-Schreibweise, Adresse und
+  Öffnungszeiten bitte noch prüfen!).
+- lang/de.php enthält wieder die Standardtexte. Haben Sie dort Änderungen gemacht (Titel, Region, Einleitung),
+  holen Sie diese aus Ihrer Sicherung oder schreiben Sie mir, dann mache ich sie neu.
+- Eigene Fotos (z. B. assets/img/cards/entruempelung.jpg) bitte wieder hineinlegen.
+- Starten:  php -S localhost:8000   (im Ordner baden-website)

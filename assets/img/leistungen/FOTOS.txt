@@ -1,0 +1,41 @@
+FOTOS FÜR DIE SEITE "LEISTUNGEN"
+================================
+
+Einfach ein Foto mit dem passenden Namen in diesen Ordner legen – die Seite findet es selbst.
+Hochformat (4:5, z. B. 1200 x 1500 px) sieht am besten aus. Querformat geht auch (wird in der Mitte zugeschnitten).
+Nur .jpg. Danach im Ordner baden-website:  php tools/optimize-photos.php  (verkleinert und entfernt GPS-Daten).
+
+Mehrere Fotos für dieselbe Leistung: Buchstaben anhängen  →  01-1.jpg, 01-1b.jpg, 01-1c.jpg, 01-1d.jpg
+
+BEREICH 01  Hausmeisterservice & Objektbetreuung        (Titelfoto: stage-1.jpg)
+  01-1.jpg   Objektbetreuung und Hausmeisterservice
+  01-2.jpg   Mülltonnenservice
+
+BEREICH 02  Reinigung                                    (Titelfoto: stage-2.jpg)
+  02-1.jpg   Gebäudereinigung
+  02-2.jpg   Treppenhausreinigung
+  02-3.jpg   Büro- und Praxisreinigung
+  02-4.jpg   Fensterreinigung
+
+BEREICH 03  Garten & Außenanlagen                        (Titelfoto: stage-3.jpg)
+  03-1.jpg   Gartenpflege und Gartenarbeit
+  03-2.jpg   Rasenmähen und Heckenschneiden
+  03-3.jpg   Baum- und Strauchschnitt
+  03-4.jpg   Unkrautentfernung
+
+BEREICH 04  Winterdienst                                 (Titelfoto: stage-4.jpg)
+  04-1.jpg   Winterdienst
+
+BEREICH 05  Reparaturen & Montage                        (Titelfoto: stage-5.jpg)
+  05-1.jpg   Kleinere Reparatur- und Instandhaltungsarbeiten
+  05-2.jpg   Möbelmontage und Möbelaufbau
+  05-3.jpg   Bodenverlegung (Laminat, Vinyl usw.)
+
+BEREICH 06  Entrümpelung & Umzug                         (Titelfoto: stage-6.jpg)
+  06-1.jpg   Entrümpelung und Haushaltsauflösung
+  06-2.jpg   Umzugs- und Transporthilfe
+
+Titelfoto (stage-N.jpg): wird zuerst gezeigt, ohne eine bestimmte Leistung hervorzuheben. Es ist freiwillig.
+Ohne Titelfoto und ohne Leistungsfotos erscheint "Foto folgt".
+
+Was ist schon da?  Die Seite mit ?fotos aufrufen:  http://localhost:8000/leistungen.php?fotos
